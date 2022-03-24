@@ -1,0 +1,31 @@
+.profile {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    text-align: center; 
+    color: black;
+}
+
+.name2 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.box {
+    text-align: center;
+    width: 750px;
+    background: darkred;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color: white;
+    box-shadow: 7px 7px black;
+}
