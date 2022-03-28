@@ -1,4 +1,4 @@
-div {
+div, input, textarea {
     box-sizing: border-box;
 }
 
@@ -119,4 +119,60 @@ body {
     position: relative;
     top: -40px;
     margin: auto;
+}
+
+.form-background {
+    background-color: black;
+    padding: 30px;
+}
+
+
+.form-main {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 550px;
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.con-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+
+}
+
+.con-100 {
+    padding: 10px;
+}
+
+.form-long {
+    height: 200px;
+}
+
+.g-button {
+    width: 100px;
+    height: 30px;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    float: right;
+    margin-top: -3px;
+}
+
+.check-go {
+    margin-left: 14px;
+}
+
+.check-123 {
+    width: 95%;
 }
