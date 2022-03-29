@@ -10,24 +10,47 @@
 </head>
 <body>
 
-  <div>
-    <table>
+  <div class="main-back">
+    <h2 class="main-text">Your shopping cart</h2>
+    <table class="main-table">
       <thead>
-            <tr> 
-                <th><p>1234</p><p>1234</p></th>
-                <td style="vertical-align: top;">2222</td>
-                <td>3333</td>
-            </tr>
+        <tr>
+          <th></th>
+          <th class="table-item">ITEM</th>
+          <th>AMOUNT</th>
+          <th>PRICE</th>
+          <th>TOTAL</th>
+        </tr>
       </thead>
       <tbody>
-            <tr>
-                <th>1111</th>
-                <td>2222</td>
-                <td>3333</td>
-            </tr>
+        <tr>
+          <td style="text-align: right;"><img src="../assets/cola.jpg" width="80px"></td>
+          <td style="text-align: center;">콜라</td>
+          <td>1</td>
+          <td>1200</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"><img src="../assets/soda.jpg" width="80px"></td>
+          <td style="text-align: center;">사이다</td>
+          <td>1</td>
+          <td>1000</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td colspan="5" style="text-align: right;">총가격 : 2200원</td>
+        </tr>
       </tbody>
     </table>
+
+    <div class="bottom-main">
+      <p class="bottom-left"><a href="#" style="text-decoration: none;">Edit your shopping cart</a></p>
+      <p class="bottom-right">Choose payment method</p>
+    </div>
+
   </div>
+
+
 
 </body>
 </html>
