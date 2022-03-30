@@ -42,18 +42,32 @@ table {
 
 .bottom-left {
   position: relative;
-  top: 20px;
+  top: 40px;
   float: left;
+  text-decoration: none;
+}
+
+.bottom-left:link {
+  color: black;
+}
+
+.bottom-left:visited {
+  color: black;
 }
 
 .bottom-right {
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 80px;
   background-color: #123760;
   border-radius: 5px;
-  float: right;
   color: white;
   text-align: center;
   padding: 10px;
-  line-height: 60px;
+  cursor: pointer;
+  float : right;
+  margin: 14px;
+}
+
+.bottom-right:hover {
+  background-color: royalblue;
 }
