@@ -183,3 +183,23 @@ body {
 .check-123 {
     width: 95%;
 }
+
+.top-container {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 25px;
+  background-color: blanchedalmond;
+
+}
+
+.top-logo {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.top-item {
+  margin-right: 20px;
+  font-size: 25px;
+}
