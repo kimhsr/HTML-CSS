@@ -203,14 +203,35 @@ body {
   font-size: 25px;
 }
 
+.layout-container {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.layout-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) { 
-  .main-title{
+  .main-title {
     font-size: 30px;
+  }
+  .layout-container div {
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) { 
-  .main-title{
+  .main-title {
     font-size: 20px;
+  }
+  .layout-container div {
+    width: 100%;
   }
 }
