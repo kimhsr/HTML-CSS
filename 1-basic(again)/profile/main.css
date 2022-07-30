@@ -1,0 +1,10 @@
+.profile {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center
+}
