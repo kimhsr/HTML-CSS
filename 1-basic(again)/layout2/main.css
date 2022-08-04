@@ -85,3 +85,18 @@
   background-color: gray;
   /* clear: both; */
 }
+
+.navbar>li{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar>li>a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
