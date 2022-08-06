@@ -110,10 +110,33 @@
   background-position: center;
   background-attachment: fixed;
   padding: 1px;
+  text-align: center;
 }
 
 .main-title {
   color: white;
   font-size: 40px;
   margin-top: 200px;
+  text-shadow: 0 0 8px black;
+  position: relative;
+}
+
+.main-body {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 8px black;
+  position: relative;
+}
+
+.main-button {
+  padding: 20px;
+  font-size: 25px;
+  background: white;
+  border-color: black;
+  border-radius: 7px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 150px;
 }
