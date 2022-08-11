@@ -69,3 +69,11 @@ table {
   position: absolute;
   left: 406px;
 }
+
+.bottom-right:hover {
+  background-color: darkblue;
+}
+
+.bottom-right:active {
+  background-color: #1C3F68;
+}
