@@ -18,6 +18,7 @@ table {
 .cart-table th {
   padding: 15px;
   border-bottom: 1px solid #c2d3de;
+  color: #8B9DB2;
 }
 
 .background-table {
@@ -47,15 +48,14 @@ table {
   position: relative;
   top: 20px;
   float: left;
-  text-decoration: none;
 }
 
 .bottom-left:link {
-  color: black;
+  color: #1C3F68;
 }
 
 .bottom-left:visited {
-  color: black;
+  color: #1C3F68;
 }
 
 .bottom-right {
