@@ -246,3 +246,22 @@ p,h4,h3,h2,h1,span {
 .check-123 {
   width: 95%;
 }
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+} /* 반응형 1200px 이하 에서는 글씨크기 30px */ 
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 10px;
+  }
+}
+
