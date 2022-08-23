@@ -247,15 +247,38 @@ p,h4,h3,h2,h1,span {
   width: 95%;
 }
 
+.product-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
   .main-title {
     font-size: 30px;
+  }
+  .product-container div{
+    width: 50%;
+  }
+  .product-container {
+    max-width: 600px;
   }
 } /* 반응형 1200px 이하 에서는 글씨크기 30px */ 
 
 @media screen and (max-width: 768px) {
   .main-title {
     font-size: 20px;
+  }
+  .product-container div{
+    width: 100%;
   }
 }
 
