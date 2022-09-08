@@ -306,6 +306,9 @@ p,h4,h3,h2,h1,span {
   background: rgba(0,0,0,0.3);
   margin-top: 104%;
   transition: all 1s;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
 }
 
 .overlay-wrap:hover .overlay-black{
