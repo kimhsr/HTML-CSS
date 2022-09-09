@@ -40,10 +40,44 @@ p,h4,h3,h2,h1,span, button {
   color: white;
 }
 
+.main-button:hover {
+  background-color: #05112A;
+}
+
 .main-img {
   position: relative;
   right: 70px;
   width: 350px;
   float: right;
   margin-top: 119px
+}
+
+.main-bottom {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bottom-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  background-color: #444445;
+  color: white;
+}
+
+.main-bottom-button:hover {
+  background-color: #05112A;
+}
+
+.services-back {
+  width: 100%;
+  height: 400px;
+  background-color: #4E61C0;
 }
