@@ -39,3 +39,11 @@ p,h4,h3,h2,h1,span, button {
   background-color: #444445;
   color: white;
 }
+
+.main-img {
+  position: relative;
+  right: 70px;
+  width: 350px;
+  float: right;
+  margin-top: 119px
+}
