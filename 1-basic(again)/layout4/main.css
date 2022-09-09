@@ -12,18 +12,30 @@ body {
   font-family: 'NanumSquareR';
 }
 
-p,h4,h3,h2,h1,span {
+p,h4,h3,h2,h1,span, button {
   transform: rotate(0.03deg);
 }
 
 .main-background {
   width: 100%;
   height: 500px;
-  background-color: darkblue;
+  background: linear-gradient(#4A99DD, #4F61C0);
   color: white;
 }
 
 .main-text {
   float: left;
+  position: relative;
+  left: 75px;
   margin-top: 50px;
+}
+
+.main-button {
+  width: 130px;
+  height: 50px;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  background-color: #444445;
+  color: white;
 }
