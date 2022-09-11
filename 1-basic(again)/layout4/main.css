@@ -82,6 +82,7 @@ p,h4,h3,h2,h1,span, button {
   background-color: #4E61C0;
   text-align: center;
   padding: 30px 30px 50px 30px;
+  line-height: 0.5;
 }
 
 .services-icon div{
@@ -109,4 +110,5 @@ p,h4,h3,h2,h1,span, button {
   text-align: center;
   justify-content: center;
   align-items: center;
+  line-height: 0.1;
 }
