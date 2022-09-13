@@ -112,3 +112,70 @@ p,h4,h3,h2,h1,span, button {
   align-items: center;
   line-height: 0.1;
 }
+
+.bottom-image div {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.portfolio {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.portfolio-main-text1 {
+  color: darkkhaki;
+  font-size: 13px;
+}
+
+.portfolio-main-text2 {
+  color: black;
+  line-height: 0.1;
+  margin-bottom: 35px;
+}
+
+.portfolio-item1 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(../assets/portfolio-1.jpg);
+  background-size: cover;
+}
+
+.portfolio-item2 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(../assets/portfolio-2.jpg);
+  background-size: cover;
+}
+
+.portfolio-item3 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(../assets/portfolio-3.jpg);
+  background-size: cover;
+}
+
+.portfolio-item4 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(../assets/portfolio-4.jpg);
+  background-size: cover;
+}
+
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
