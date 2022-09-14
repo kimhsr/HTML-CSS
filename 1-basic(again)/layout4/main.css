@@ -17,16 +17,20 @@ p,h4,h3,h2,h1,span, button {
 }
 
 .main-background {
-  width: 100%;
   height: 500px;
+  padding: 20px;
   background: linear-gradient(#4A99DD, #4F61C0);
   color: white;
 }
 
+.main-img {
+  width: 350px;
+  float: right;
+  margin-top: px
+}
+
 .main-text {
   float: left;
-  position: relative;
-  left: 75px;
   margin-top: 50px;
 }
 
@@ -42,14 +46,6 @@ p,h4,h3,h2,h1,span, button {
 
 .main-button:hover {
   background-color: #05112A;
-}
-
-.main-img {
-  position: relative;
-  right: 70px;
-  width: 350px;
-  float: right;
-  margin-top: 119px
 }
 
 .main-bottom {
@@ -78,11 +74,15 @@ p,h4,h3,h2,h1,span, button {
 
 .services-back {
   width: 100%;
-  height: 400px;
   background-color: #4E61C0;
   text-align: center;
   padding: 30px 30px 50px 30px;
   line-height: 0.5;
+  color: white;
+}
+
+.services-icon {
+  display: flex;
 }
 
 .services-icon div{
@@ -137,34 +137,11 @@ p,h4,h3,h2,h1,span, button {
 }
 
 .portfolio-item1 {
+  position: relative;
   float: left;
   width: 50%;
   height: 350px;
-  background-image: url(../assets/portfolio-1.jpg);
-  background-size: cover;
-}
-
-.portfolio-item2 {
-  float: left;
-  width: 50%;
-  height: 350px;
-  background-image: url(../assets/portfolio-2.jpg);
-  background-size: cover;
-}
-
-.portfolio-item3 {
-  float: left;
-  width: 50%;
-  height: 350px;
-  background-image: url(../assets/portfolio-3.jpg);
-  background-size: cover;
-}
-
-.portfolio-item4 {
-  float: left;
-  width: 50%;
-  height: 350px;
-  background-image: url(../assets/portfolio-4.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../assets/portfolio-1.jpg);
   background-size: cover;
 }
 
@@ -178,4 +155,42 @@ p,h4,h3,h2,h1,span, button {
   color: white;
   padding: 50px;
   width: 100%;
+}
+
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0px solid white;
+  transition: border 0.5s;
+}
+
+.white-box:hover {
+  border: 30px solid white;
+}
+
+@media screen and (max-width : 992px) {
+  .main-img {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .main-text {
+    float: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .services-icon {
+    display: flex;
+    flex-direction: column;
+    }
+  .services-icon div {
+    width: 100%;
+  }
+  .portfolio-item1 {
+    float: none;
+    width: 100%
+  }
 }
