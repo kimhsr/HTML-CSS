@@ -164,6 +164,10 @@ p,h4,h3,h2,h1,span {
   position: relative;
 }
 
+.custom {
+  color: red;
+}
+
 .main-button {
   padding: 20px;
   font-size: 25px;
