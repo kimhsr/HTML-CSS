@@ -194,6 +194,11 @@ p,h4,h3,h2,h1,span {
   z-index: 5;
 }
 
+.pseudo::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
 .contact-background {
   background-color: black;
   padding: 30px;
@@ -250,11 +255,28 @@ p,h4,h3,h2,h1,span {
   width: 95%;
 }
 
+/* .input-file::file-selector-button {
+  background: skyblue;
+  border: none;
+  padding: 20px;
+}
+
+.input-file::file-selector-button:hover {
+  background: blue;
+} */
+
 .product-container {
   width: 80%;
   max-width: 1000px;
   margin: auto;
   margin-bottom: 70px;
+}
+
+.product-container::after {
+  content: '';
+  display: block;
+  clear: both;
+  float: none;
 }
 
 .product-container div {
