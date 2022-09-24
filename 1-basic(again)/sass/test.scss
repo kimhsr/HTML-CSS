@@ -1,0 +1,13 @@
+$main-color : #2a4cb2;
+$sub-color : #2d9978;
+$main-size : 20px;
+
+.background {
+  background-color: $main-color;
+  font-size: ($main-size / 2);
+}
+
+.box {
+  color: $sub-color;
+  font-size: ($main-size + 2px);
+}

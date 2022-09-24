@@ -1,0 +1,13 @@
+:root {
+  --main-color : red;
+}
+
+.background {
+  background-color: var(--main-color);
+  width: calc(40% - 20px);
+}
+
+.box {
+  color: #2d9978;
+  font-size: var(--main-color);
+}/*# sourceMappingURL=test.css.map */
