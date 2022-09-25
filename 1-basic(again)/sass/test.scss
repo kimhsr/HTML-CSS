@@ -1,3 +1,44 @@
+%btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  @extend %btn;
+  background-color: green;
+}
+
+.btn-red {
+  @extend %btn;
+  background-color: red;
+}
+
+.btn-blue {
+  @extend %btn;
+  background-color: blue;
+}
+
+// .main-bg h4 {
+//   font-size: 16px;
+// }
+
+// .main-bg button {
+//   color: red;
+// }
+// 일반 문법
+
+// .main-bg {
+//   width: 100px;
+//   h4 {
+//     font-size: 16px;
+//   }
+//   button {
+//     color: red;
+//   }
+// } 
+// nesting 문법
+
 $main-color : #2a4cb2;
 $sub-color : #2d9978;
 $main-size : 20px;

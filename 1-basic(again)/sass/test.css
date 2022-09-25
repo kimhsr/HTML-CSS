@@ -1,13 +1,27 @@
-:root {
-  --main-color : red;
+.btn-blue, .btn-red, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-blue {
+  background-color: blue;
 }
 
 .background {
-  background-color: var(--main-color);
-  width: calc(40% - 20px);
+  background-color: #2a4cb2;
+  font-size: 10px;
 }
 
 .box {
   color: #2d9978;
-  font-size: var(--main-color);
+  font-size: 22px;
 }/*# sourceMappingURL=test.css.map */
