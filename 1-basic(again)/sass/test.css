@@ -1,51 +1,41 @@
-body {
-  margin: 0;
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list .active {
+  background: skyblue;
+  color: white;
+}
+
+.alert-box-green, .alert-box-blue, .alert-box-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color: white;
+  background-color: green;
+}
+
+.alert-box-yellow {
+  background-color: orange;
+}
+
+.alert-box-blue {
+  background-color: skyblue;
 }
 
 div {
   box-sizing: border-box;
 }
 
-h2 {
-  font-size: 30px;
-  letter-spacing: -1px;
-  color: brown;
+.row .col-6 {
+  float: left;
+  width: 50%;
+  padding: 15px;
 }
 
-h3 {
-  font-size: 20px;
-  width: -1px;
-}
-
-h4 {
-  font-size: 10px;
-  letter-spacing: -1px;
-}
-
-.btn-blue, .btn-red, .btn-green {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
-}
-
-.btn-green {
-  background-color: green;
-}
-
-.btn-red {
-  background-color: red;
-}
-
-.btn-blue {
-  background-color: blue;
-}
-
-.background {
-  background-color: #2a4cb2;
-  font-size: 10px;
-}
-
-.box {
-  color: #2d9978;
-  font-size: 22px;
+.row .col-4 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
 }/*# sourceMappingURL=test.css.map */

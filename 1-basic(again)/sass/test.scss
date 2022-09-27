@@ -1,74 +1,47 @@
-@use 'reset';
-// @use 'reset2';
-
-@mixin font-style($구멍, $구멍2){
-  font-size: $구멍;
-  #{ $구멍2 }: -1px;
+.sh-list {
+  li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+  }
+  .active {
+    background: skyblue;
+    color: white;
+  }
 }
 
-h2 {
-  @include font-style(30px, letter-spacing);
-  color: reset.$main-color;
-}
-h3 {
-  @include font-style(20px, width)
-}
-h4 {
-  font-size: 10px;
-  letter-spacing: -1px;
-}
-
-%btn {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
-}
-
-.btn-green {
-  @extend %btn;
+.alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color: white;
   background-color: green;
 }
 
-.btn-red {
-  @extend %btn;
-  background-color: red;
+.alert-box-yellow {
+  @extend .alert-box-green;
+  background-color: orange;
 }
 
-.btn-blue {
-  @extend %btn;
-  background-color: blue;
+.alert-box-blue {
+  @extend .alert-box-green;
+  background-color: skyblue;
 }
 
-// .main-bg h4 {
-//   font-size: 16px;
-// }
-
-// .main-bg button {
-//   color: red;
-// }
-// 일반 문법
-
-// .main-bg {
-//   width: 100px;
-//   h4 {
-//     font-size: 16px;
-//   }
-//   button {
-//     color: red;
-//   }
-// } 
-// nesting 문법
-
-$main-color : #2a4cb2;
-$sub-color : #2d9978;
-$main-size : 20px;
-
-.background {
-  background-color: $main-color;
-  font-size: ($main-size / 2);
+div {
+  box-sizing: border-box;
 }
 
-.box {
-  color: $sub-color;
-  font-size: ($main-size + 2px);
+@mixin column($width){
+  float: left;
+  width: $width;
+  padding: 15px;
+}
+
+.row .col-6 {
+  @include column(50%);
+}
+
+.row .col-4 {
+  @include column(33.33%);
 }
