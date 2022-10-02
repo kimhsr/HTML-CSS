@@ -385,6 +385,32 @@ input[type=file]::-webkit-file-upload-button {
   }
 }
 
+.ani-x {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+
+.ani-x:hover {
+  animation: turn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(45deg) scale(1.5);
+  }
+}
+
 .shop-bg {
   background-color: #eee;
   padding: 20px;
