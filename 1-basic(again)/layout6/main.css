@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas: 
+    "헤더 헤더 헤더 헤더"
+    "사이드 바디 바디 바디"
+    "사이드 바디 바디 바디"
+}
+
+.grid-container div {
+  border: 1px solid black;
+}
+
+.grid-nav {
+  /* grid-column: 1 / 5; */
+  grid-area: 헤더;
+}
+
+.grid-sidebar {
+  /* grid-row: 2 / 4; */
+  grid-area: 사이드;
+}
+
+.grid-body {
+  grid-area: 바디;
+}
