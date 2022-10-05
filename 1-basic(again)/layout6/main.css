@@ -8,6 +8,15 @@
     "사이드 바디 바디 바디"
 }
 
+@media screen and (max-width : 768px) {
+  .grid-container {
+    grid-template-areas:
+      "헤더 헤더 헤더 헤더"
+      "사이드 사이드 사이드 사이드"
+      "바디 바디 바디 바디";
+  }
+}
+
 .grid-container div {
   border: 1px solid black;
 }
