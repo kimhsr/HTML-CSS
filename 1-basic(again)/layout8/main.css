@@ -18,3 +18,34 @@
 .input-animation:focus {
   width: 300px;
 }
+
+.sidebar {
+  transition : all 0.5s;
+  width: 150px; 
+  height: 100vh; 
+  background: #484bb3; 
+  position: fixed; 
+  z-index: 5;
+  color: white;
+  font-family: 'nanumsquare';
+/*  시작화면 */
+  transform: translateX(-100px);
+}
+.sidebar div {
+  margin : 12px 0px 0px 15px;
+}
+.sidebar:hover {
+  transform: translateX(0px);
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+.sidebar:hover i {
+  transform: translateX(0px);
+}
+
+.content {
+  margin-left: 50px;
+}
